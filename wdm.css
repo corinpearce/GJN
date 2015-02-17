@@ -2173,6 +2173,7 @@ body.node-type-news-story .date-display-single {
     border-top:5px solid #c8ced3;
     color:#fff;
     font-family:"TeXGyreAdventorBold",sans-serif;
+    margin: 0 0 10px 10px;
     padding:2px 12px 5px;
     text-align:center
 }
