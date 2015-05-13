@@ -1853,15 +1853,17 @@ body.front #block-system-main {
     margin:0
 }
 
-.node .field-label+.field+.field {
+/* strings of fields, e.g. tags, should be displayed inline */
+.node .field-label + .field ~ .field {
     display:inline-block;
     font-size:14px;
     line-height:18px;
     margin:0
 }
 
-.node .field-label+.field+.field:before {
-    content:', '
+/* strings of fields, e.g. tags, should be delimited by commas */
+.node .field-label + .field ~ .field:before { /*CHP*/
+    content:', ' 
 }
 
 div#aside {
